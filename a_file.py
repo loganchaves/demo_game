@@ -9,10 +9,24 @@ while True:
     option = input("\n> ")
 
     if option == "1":
-        option = input("Choose the restaurant: ")
         print('a) taco bell:\n' +
-              'b) Burger King\n'+
+              'b) Burger King\n' +
               'c)Arbys\n')
+        resopt = input("Choose the restaurant: ")
+
+        if resopt =="a":
+            print('a) soft\n' +
+                  'b) hard\n'  +
+                  'c) nacho\n')
+            taco = input('type of taco: ')
+            if taco == 'a':
+                print ('ya got diarrhea')
+            if taco == 'b':
+                print ('ya got diarrhea')
+            if taco == 'c':
+                print('your toilet survived')
+
+                break
 
 
 
