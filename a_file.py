@@ -4,14 +4,16 @@ while True:
 
     print("FOOD:\n" +
           "1) Start\n" +
-          "2) Exit\n")
+          "2) About?\n")
 
     option = input("\n> ")
+    if option == '2':
+        print('This is a choose your own adventure game. Good luck! CREATED BY NICHOLAS & LOGAN ENTERPRISES®...')
 
     if option == "1":
-        print('a) taco bell:\n' +
+        print('a) Taco Bell\n' +
               'b) Burger King\n' +
-              'c) Arbys\n')
+              'c) Arby\'s\n')
         resopt = input("Choose the restaurant: ")
         if resopt == 'c':
             print(
@@ -27,12 +29,11 @@ while True:
             if meat == 'c':
                 print('FAIL why are you here we have the meats')
 
-
-
         if resopt == "b":
-            print('a) salad\n'+
-                  'b) chicken sandwich\n'+
+            print('a) salad\n' +
+                  'b) chicken sandwich\n' +
                   'c) whopper\n')
+            def
             burger = input('what you want: ')
             if burger == "a":
                 print('FAIL You got foot lettuce')
@@ -43,7 +44,7 @@ while True:
 
         if resopt == "a":
             print('a) soft\n' +
-                  'b) hard\n'  +
+                  'b) hard\n' +
                   'c) nacho\n')
             taco = input('type of taco: ')
             if taco == 'a':
